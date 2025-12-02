@@ -1,4 +1,5 @@
 package dbmysql;
+
 import java.sql.*;
 
 public class Practica2_ListarTablas {

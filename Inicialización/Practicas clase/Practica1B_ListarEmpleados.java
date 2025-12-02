@@ -2,13 +2,13 @@ package dbmysql;
 
 import java.sql.*;
 
-public class Practica1B_ListarAlumnos {
+public class Practica1B_ListarEmpleados {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.jdbc.Driver");
 
         System.out.println("Obteniendo conexión...");
 
-        Connection c = DriverManager.getConnection("jdbc:mysql://localhost/bd_empleados","root","");
+        Connection c = DriverManager.getConnection("jdbc:mysql://localhost/bdemp","root","");
         Statement ps = c.createStatement();
         ResultSet rs = ps.executeQuery("SELECT * FROM emp");
 
