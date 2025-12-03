@@ -1,4 +1,4 @@
-package dbmysql;
+package dbmysql.mysql;
 
 import java.sql.*;
 

@@ -1,6 +1,4 @@
-package dbmysql;
-
-import java.sql.*;
+package dbmysql.mysql;
 
 public class Practica2_ListarTablas {
     public static void main(String[] args) {
